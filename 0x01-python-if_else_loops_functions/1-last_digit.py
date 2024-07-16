@@ -7,4 +7,4 @@ elif str(number)[-1] == "0":
     o = "and is 0"
 elif str(number)[-1] < "6" and str(number)[-1] != "0":
     o = "and is less than 6 and not 0"
-print(f"Last digit of {number} is {str(number)[-1]} " + o)
+print(f"Last digit of {number} is {str(number)[-1]} {o}")
